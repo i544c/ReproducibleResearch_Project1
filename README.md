@@ -107,6 +107,10 @@ For this part the `weekdays()` function may be of some help here. Use the datase
 
 2. Make a panel plot containing a time series plot (i.e. `type = "l"`) of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis). See the README file in the GitHub repository to see an example of what this plot should look like using simulated data.
 
+![image](https://github.com/i544c/ReproducibleResearch_Project1/assets/104391905/fadbe07f-2dbb-4974-895a-be53df15196b)
+
+Your plot will look different from the one above because you will be using the activity monitor data. Note that the above plot was made using the lattice system but you can make the same version of the plot using any plotting system you choose.
+
 ## Submitting the Assignment
 
 **To submit the assignment:**
