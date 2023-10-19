@@ -11,7 +11,7 @@ This assignment will be described in multiple parts. You will need to write a re
 ```{r}
 if (!require("pacman")) install.packages("pacman")
 pacman::p_load(pacman,     # Package Manager
-               knitr,
+               knitr,      # Transform R Markdown documents into various output formats such as HTML, PDF, Word and others.
                plyr,       # Data manipulation
                data.table, # Manipulate, process and analyze large data sets
                tidyverse   # Data organization
