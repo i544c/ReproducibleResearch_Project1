@@ -80,6 +80,7 @@ qplot(steps_per_day,
       binwidth = 500
 )
 ```
+![Rplot05](https://github.com/i544c/ReproducibleResearch_Project1/assets/104391905/7382a81a-e1f6-4815-acdc-736081c572b8)
 
 ## What is the average daily activity pattern?
 
@@ -111,6 +112,7 @@ ggplot(data = ave_day_act_patt,
         ylab("Average Number of steps"
 		)
 ```
+![Rplot06](https://github.com/i544c/ReproducibleResearch_Project1/assets/104391905/02ccbc47-0b17-4642-b9b8-06453a487d24)
 
 ## The 5-minutes interval on average per day in the data contains the maximum number of steps?
 
@@ -150,6 +152,7 @@ ggplot(TotalSteps, aes(x = steps)) +
              y     = "Frequency"
         )
 ```
+![Rplot07](https://github.com/i544c/ReproducibleResearch_Project1/assets/104391905/8c22dc9e-68e2-4373-af72-6790ddeb29c9)
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
@@ -190,3 +193,4 @@ plot(steps_week_end,
 
 rmarkdown::render("PA1_template.Rmd")
 ```
+![Rplot08](https://github.com/i544c/ReproducibleResearch_Project1/assets/104391905/074d2a2a-e597-4c53-8822-c5c21b474950)
